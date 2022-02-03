@@ -14,46 +14,48 @@
 </head>
 
 <body class="bg-body">
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-opacity-25">
-        <div class="container-fluid">
-            <div>
-                <img class=" mt-1 " style="vertical-align: top;" src="images/icons8-camera-50.png" alt="">
-                <a class="navbar-brand " style="font-size: 2.25rem;" href="#">ALBUM </a>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-opacity-25">
+            <div class="container-fluid">
+                <div>
+                    <img class=" mt-1 " style="vertical-align: top;" src="images/icons8-camera-50.png" alt="">
+                    <a class="navbar-brand pe-none " style="font-size: 2.25rem;" href="#">ALBUM </a>
 
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ms-3 ">
+                            <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <a class="nav-link" href="#" id="Link">Link</a>
+                        </li>
+                        <li class="nav-item dropdown ms-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown Dropdown" role="button"
+                                data-bs-toggle="dropdown">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item ms-3">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item ms-3">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown ms-3">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
 
     <section style="padding: 6rem 2rem;">
@@ -73,7 +75,7 @@
     <section class="bg-secondary bg-opacity-10 mt-2 p-lg-5 container ">
         <div class="row justify-content-center text-start ">
 
-            <div class="card m-2 shadow-lg p-3 mb-5 bg-body rounded " style="width: 18rem;">
+            <div class="card m-2 shadow-lg p-3 mb-5 bg-body rounded hover-shadow" style="width: 18rem;">
                 <img src="images/download.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -215,8 +217,10 @@
         </div>
     </section>
 
+    <div class="float-end">
+        <p style="margin-right: 7rem;"> <a class="text-decoration-none" href="#">Back to top</a> </p>
+    </div>
 
-    <p class=" float-end " style="margin-right: 7rem;"> <a href="#">Back to top</a> </p>
 
 
     <script src="js/bootstrap.bundle.min.js"></script>

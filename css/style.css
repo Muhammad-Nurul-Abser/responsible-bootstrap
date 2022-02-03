@@ -1,14 +1,6 @@
-.nav-link:hover{
-    background-color: #d9b3ff;
-}
+
 .dropdown-item:hover{
     background-color: #e0e0eb;
-}
-
-
-
-.section1 h1{
-    font-size: 3rem;
 }
 
 .btn-primary:hover{
@@ -17,4 +9,6 @@
 .btn-secondary:hover{
     background-color:tomato;
 }
+
+
 
